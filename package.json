@@ -7,8 +7,10 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "arts-leaderboard-backend": "file:",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
+    "express": "^4.17.1",
     "node-fetch": "^2.6.1"
   }
 }
