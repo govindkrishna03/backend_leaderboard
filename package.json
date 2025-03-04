@@ -1,0 +1,14 @@
+{
+  "name": "arts-leaderboard-backend",
+  "version": "1.0.0",
+  "description": "Backend API for fetching leaderboard data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.1"
+  }
+}
