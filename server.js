@@ -8,7 +8,7 @@ const API_KEY = process.env.GOOGLE_API_KEY;
 const SHEET_ID = "1eidScsjMV3-UxvfZ7zbUljk9mhz64H8vgbKWT3qBuwM";
 const RANGE = "HOUSE!C4:F5";
 
-app.get('/api/leaderboard', async (req, res) => {
+app.get('', async (req, res) => {
     try {
         const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${RANGE}?key=${API_KEY}`;
         const response = await fetch(url);
