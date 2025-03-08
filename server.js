@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 const API_KEY = process.env.GOOGLE_API_KEY;
 const SHEET_ID = "1eidScsjMV3-UxvfZ7zbUljk9mhz64H8vgbKWT3qBuwM";
 const RANGE_1 = "HOUSE!C4:F5";
-const RANGE_2 = "SCORES!A1:D100"; // Example of another sheet
+const RANGE_2 = "SCORES!A1:D200"; // Example of another sheet
 
 // Enable CORS
 app.use(cors());
